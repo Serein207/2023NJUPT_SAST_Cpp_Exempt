@@ -6,11 +6,7 @@ struct generator {
     struct promise_type {
         int _value;
 
-        generator get_return_object() {
-            return {std::coroutine_handle<promise_type>::from_promise(*this)};
-        }
-        std::suspend_never initial_suspend() { return {}; }
-        std::suspend_never final_suspend() noexcept { return {}; }
+        // TODO: finish your code here
         void unhandled_exception() {}
         void return_void() {}
         // TODO: finish your code here
