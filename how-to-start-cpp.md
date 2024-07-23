@@ -71,7 +71,7 @@ int main() {
 
 所以，在此之前，你还需要了解一点操作系统和计算机基础知识。别急，我们会在正式授课的第一节为你讲解这些内容。
 
-> [!NOTE] 
+> [!TIP] 
 > **我想要记笔记，有适合程序员的记笔记方式和软件吗？**
 > 
 > 推荐 [markdown 官方教程](https://markdown.com.cn/)，使用 VScode 编写 markdown 即可
@@ -100,9 +100,10 @@ int main() {
 
 当然，也有很多其他的安装方式，比如使用虚拟机、双系统等。你可以利用搜索引擎搜索相关内容。
 
+> [!NOTE]
 > 希望接下来的日子里你能体会到 Linux 的美妙，早日选择 Linux 作为你的主力操作系统。很多学长学姐都在使用呢。
 
-> [!NOTE]
+> [!TIP]
 > **我使用的是 macOS，也需要安装 Linux 吗**
 > 
 > 不需要，macOS 拥有和 Linux 相同的设计哲学和相似的使用方法。你可以参考 [这篇文章](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/) 配置基础开发环境
@@ -127,7 +128,7 @@ Visual Studio Code，简称 VScode，是一款轻量级的代码编辑器，拥�
 
 嘿，别急，想要开始学习计算机相关的知识，你还要了解许多我们“默认”你应该掌握的内容，然而大多数新人是不知道这些的。MIT 的《The Missing Semester of Your CS Education》课程就是为了弥补这一缺失而生的。
 
-> [!NOTE] 
+> [!TIP] 
 > 本教程是在 Linux 环境下演示的，你可以使用 WSL 来跟随教程学习
 
 计算机教育中缺失的一课 [中文文档&视频](https://missing-semester-cn.github.io)
@@ -148,7 +149,7 @@ Visual Studio Community 是完全免费的！所有需要付费的下载方式�
 
 阅读微软文档：[在 Visual Studio 中安装 C 和 C++ 支持](https://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-0-installation?view=msvc-170) 所在章节的全部内容，即可开始你的C++学习
 
-> [!IMPORTANT]
+> [!WARNING]
 > 如果你要使用 VS2010（不包括）以上的版本学习 C 语言，请关闭 sdl 检查 [参考连接](https://www.zhihu.com/question/65286929/answer/256000826)
 >
 > 如果你想知道原因：[既然scanf和strcpy等函数会被MSVC编译器报不安全，那么C语言教材为什么还讲这些函数？](https://www.zhihu.com/question/493813623?utm_psn=1771001835983126528v)
@@ -159,9 +160,29 @@ Visual Studio Community 是完全免费的！所有需要付费的下载方式�
 
 当然，你也可以阅读微软文档中的 [C++ 教程](https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170) 来学习
 
+# Q&A
+
+- 没学过C语言可以直接入门 C++ 吗
+  
+  可以的，古早时期 C++ 定位为 C 语言的超集，但是在 C++11 发布后，C++ 和大部分其他语言一样，只有交集关系。
+
+- 我可以用 VScode 编写 C++ 吗
+    
+  可以，但是对于新手而言不推荐。VScode 在不配置环境和安装插件的情况下，仅仅是一个和记事本相似的代码编辑器。在 Windows 平台配置的方式比较繁琐，且易出错。我们在正式授课中也会教大家配置。
+
+- 我一定要学习 Linux 吗
+
+  从某种意义而言，对于除了游戏开发方向的 C++ 开发者来说，Linux 是必备的。但是，如果你只是想学习 C++ 语言本身，Windows 也是可以的。
+
+## 联系我们
+
+欢迎加入C++组招新群，群号 834492739
+
+群内有丰富的电子版书籍资源哦
+
 # 资源推荐
 
-\* 大部分书籍资源在群文件中有电子版
+\* _大部分书籍资源在群文件中有电子版_
 
 ## C++ 书单推荐
 
@@ -223,16 +244,4 @@ Visual Studio Community 是完全免费的！所有需要付费的下载方式�
 - [cppinsights：C++语法糖降糖神器](https://cppinsights.io/)
 - [在线代码编辑器](https://compiler-explorer.com/)
 
-# Q&A
 
-- 没学过C语言可以直接入门 C++ 吗
-  
-  可以的，古早时期 C++ 定位为 C 语言的超集，但是在 C++11 发布后，C++ 和大部分其他语言一样，只有交集关系。
-
-- 我可以用 VScode 编写 C++ 吗
-    
-  可以，但是对于新手而言不推荐。VScode 在不配置环境和安装插件的情况下，仅仅是一个和记事本相似的代码编辑器。在 Windows 平台配置的方式比较繁琐，且易出错。我们在正式授课中也会教大家配置。
-
-- 我一定要学习 Linux 吗
-
-  从某种意义而言，对于除了游戏开发方向的 C++ 开发者来说，Linux 是必备的。但是，如果你只是想学习 C++ 语言本身，Windows 也是可以的。
