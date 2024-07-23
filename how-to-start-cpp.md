@@ -11,6 +11,8 @@
 
 C++ 是由贝尔实验室自主研发的一门古老的通用编程语言。程序运行在在一个被称作「C++ 抽象机」的机器上，在这里，被神选中的人将被授予「`auto`」，导引模板之力。你将扮演一位名为「程序员」的神秘角色，在自由的编码过程中邂逅性格各异、能力独特的编译器，和他们一起消灭 bug，找回泄露的内存——同时，逐步发掘「UB」的真相。
 
+[点击查看 C++ 历史](https://zh.cppreference.com/w/cpp/language/history)
+
 ## 学习 C++ 能做什么？
 
 - 如果你未来想从事的工作与 C++ 无关  
@@ -35,7 +37,7 @@ C++ 是由贝尔实验室自主研发的一门古老的通用编程语言。程�
 > 本文内容和 C++ 组的授课内容对考研没有帮助。如果您要参加其他课程或各类考试，如内容有出入请务必以该课程或考试指定的参考书或指导教师的解答为准。
 
 如果未来想继续走计算机相关方向（考研除外，前面也说了我们的授课对考研没有帮助），下面是一些忠告：
-- 学英语，用英语，尤其是计算机相关的表达。不要滥用全文翻译，这对学英语没有帮助。可以使用划词翻译。讲义中也给出了一些计算机相关词语的常用英语表达方式。
+- 学英语，用英语，尤其是计算机相关的表达。不要滥用全文翻译，这对学英语没有帮助。可以使用划词翻译。推荐使用浏览器插件：[沉浸式翻译](https://www.bilibili.com/video/BV1es421T7v2/)
 - 不要使用百度，可以使用 Google、Duckduckgo 或者 Bing（国际版）。
 - 尽可能减少使用 CSDN 等野生的中文互联网资料，上面的许多内容过时、片面甚至错误。如果觉得 CSDN 好，可能只是见识太少了而且不会英语，没有见过更优质的内容。（参考实验报告可以用）
 - 不提供恰当的资助就不要随便向陌生人问低级问题，所有人都很忙而且没有回答的义务。可以先去问搜索引擎。（甚至问 GPT，但是需要额外注意信息正确性）
@@ -69,7 +71,17 @@ int main() {
 
 所以，在此之前，你还需要了解一点操作系统和计算机基础知识。别急，我们会在正式授课的第一节为你讲解这些内容。
 
-## 学习 Linux
+> [!NOTE] 
+> **我想要记笔记，有适合程序员的记笔记方式和软件吗？**
+> 
+> 推荐 [markdown 官方教程](https://markdown.com.cn/)，使用 VScode 编写 markdown 即可
+
+接下来，你有**两个**选择：
+
+- 主线：直接入门C++ [点这里](#正式开始)
+- 支线：学习一些计算机基础知识 [点这里](#学习-linux-支线)
+
+## 学习 Linux （支线）
 
 中文互联网上几乎都会让你在 Windows 中安装 C++ 开发环境，然后开始编写代码。但是，我们强烈建议你使用 Linux 系统学习 C++ 开发。这样你可以更好地理解编译、链接、运行等概念。
 
@@ -105,7 +117,7 @@ VScode 是完全免费的！所有需要付费的下载方式都不要相信！
 
 ### 简介
 
-VScode 是一款轻量级的代码编辑器，拥有丰富的插件市场，可以编写各种语言。
+Visual Studio Code，简称 VScode，是一款轻量级的代码编辑器，拥有丰富的插件市场，可以编写各种语言。
 
 ### 连接 WSL
 
@@ -115,44 +127,37 @@ VScode 是一款轻量级的代码编辑器，拥有丰富的插件市场，可�
 
 嘿，别急，想要开始学习计算机相关的知识，你还要了解许多我们“默认”你应该掌握的内容，然而大多数新人是不知道这些的。MIT 的《The Missing Semester of Your CS Education》课程就是为了弥补这一缺失而生的。
 
+> [!NOTE] 
+> 本教程是在 Linux 环境下演示的，你可以使用 WSL 来跟随教程学习
+
 计算机教育中缺失的一课 [中文文档&视频](https://missing-semester-cn.github.io)
 
 \* _如果无法稳定访问上面的网址或无法观看视频，可以观看 [B 站转载视频](https://www.bilibili.com/video/BV1Hu4y1A7kf/)_
-
-> [!NOTE] 
-> **我想要记笔记，有适合程序员的记笔记方式和软件吗？**
-> 
-> 推荐 [markdown 官方教程](https://markdown.com.cn/)，使用 VScode 编写 markdown 即可
 
 ## 正式开始！
 
 终于，你可以开始学习 C++ 了！本文只会带你配置最基本的 C++开发环境，如果你想要学习更多内容，可以参加我们的正式授课。也可以在下面的书单和视频连接中寻找学习资源。
 
-### 安装生成工具
+### 下载安装 Visual Studio 2022
 
-1. 打开 WSL
+Visual Studio Community 是完全免费的！所有需要付费的下载方式都不要相信！
 
-2. 假设你的发行版使用 apt（本演练使用 Ubuntu），此时请使用以下命令在 WSL 2 发行版上安装所需的生成工具：
+[官网下载链接](https://visualstudio.microsoft.com/downloads/)
 
-    ```bash
-    sudo apt update
-    sudo apt install g++ gdb make ninja-build rsync zip
-    ```
+### 配置 Visual Studio
 
-上述 apt 命令会安装：
+阅读微软文档：[在 Visual Studio 中安装 C 和 C++ 支持](https://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-0-installation?view=msvc-170) 所在章节的全部内容，即可开始你的C++学习
 
-- C++ 编译器
-- gdb
-- CMake
-- rsync
-- zip
-- 基础生成系统生成器
+> [!IMPORTANT]
+> 如果你要使用 VS2010（不包括）以上的版本学习 C 语言，请关闭 sdl 检查 [参考连接](https://www.zhihu.com/question/65286929/answer/256000826)
+>
+> 如果你想知道原因：[既然scanf和strcpy等函数会被MSVC编译器报不安全，那么C语言教材为什么还讲这些函数？](https://www.zhihu.com/question/493813623?utm_psn=1771001835983126528v)
 
 ### 编写你的第一个 C++ 程序
 
-VScode文档（英文）：[Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux)
-
 接下来，可以阅读《C++Primer》或是访问 [learncpp.com](https://learncpp.com) 学习 C++ 咯
+
+当然，你也可以阅读微软文档中的 [C++ 教程](https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170) 来学习
 
 # 资源推荐
 
@@ -217,3 +222,17 @@ VScode文档（英文）：[Using C++ on Linux in VS Code](https://code.visualst
 - [数据结构可视化](https://raj-rathod.github.io/DSA-visualisation-in-angular/)
 - [cppinsights：C++语法糖降糖神器](https://cppinsights.io/)
 - [在线代码编辑器](https://compiler-explorer.com/)
+
+# Q&A
+
+- 没学过C语言可以直接入门 C++ 吗
+  
+  可以的，古早时期 C++ 定位为 C 语言的超集，但是在 C++11 发布后，C++ 和大部分其他语言一样，只有交集关系。
+
+- 我可以用 VScode 编写 C++ 吗
+    
+  可以，但是对于新手而言不推荐。VScode 在不配置环境和安装插件的情况下，仅仅是一个和记事本相似的代码编辑器。在 Windows 平台配置的方式比较繁琐，且易出错。我们在正式授课中也会教大家配置。
+
+- 我一定要学习 Linux 吗
+
+  从某种意义而言，对于除了游戏开发方向的 C++ 开发者来说，Linux 是必备的。但是，如果你只是想学习 C++ 语言本身，Windows 也是可以的。
