@@ -69,12 +69,12 @@ int main() {
 
 看不懂代码？没关系。在此之前，我们还有一项待解决的最关键的问题：如何编译和运行 C++ 代码？又或者是，什么是编译？
 
-所以，在此之前，你还需要了解一点操作系统和计算机基础知识。别急，我们会在正式授课的第一节为你讲解这些内容。
+所以，在此之前，你还需要了解一点操作系统和计算机基础知识。
 
 > [!TIP] 
 > **我想要记笔记，有适合程序员的记笔记方式和软件吗？**
 > 
-> 推荐 [markdown 官方教程](https://markdown.com.cn/)，使用 VScode 编写 markdown 即可
+> 推荐使用 [markdown](https://markdown.com.cn/)，使用 VScode（下文有下载链接） 编写 markdown 即可
 
 接下来，你有**两个**选择：
 
@@ -83,14 +83,16 @@ int main() {
 
 ## :large_blue_diamond: 学习 Linux
 
-中文互联网上几乎都会让你在 Windows 中安装 C++ 开发环境，然后开始编写代码。但是，我们强烈建议你使用 Linux 系统学习 C++ 开发。这样你可以更好地理解编译、链接、运行等概念。
-
 > [!NOTE]
 > **Linux 是什么？**
 >
 > 与我们熟悉的 Windows、 Android、macOS 一样，Linux 也是一款操作系统。它是一款开源的、免费的操作系统，是世界上最流行的服务器操作系统。
 
+对于 C++ 程序员而言，相比于 Windows，Linux 是简单而优雅的。
+
 我们的正式授课会带你一点点了解 Linux 中的 C++ 开发，并掌握如何使用 Linux。当然，你也可以在运维（Linux）组的授课中学习到这些知识。
+
+当然，对于学习计算机系统和操作系统，Linux 是最好的选择。所以，为了接下来的学习，率先拥抱 Linux，拥抱开源共享。
 
 ### 安装
 
@@ -101,14 +103,14 @@ int main() {
 当然，也有很多其他的安装方式，比如使用虚拟机、双系统等。你可以利用搜索引擎搜索相关内容。
 
 > [!NOTE]
-> 希望接下来的日子里你能体会到 Linux 的美妙，早日选择 Linux 作为你的主力操作系统。
+> 希望接下来你能体会到 Linux 的美妙，早日选择 Linux 作为你的主力操作系统。
 
 > [!TIP]
 > **我使用的是 macOS，也需要安装 Linux 吗**
 > 
 > 不需要，macOS 拥有和 Linux 相同的设计哲学和相似的使用方法。你可以参考 [这篇文章](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/) 配置基础开发环境。
 
-## :large_blue_diamond: 使用 VScode
+## :large_blue_diamond: 使用 VScode （可选）
 
 ### 下载安装
 
@@ -126,7 +128,7 @@ Visual Studio Code，简称 VScode，是一款轻量级的代码编辑器，拥�
 
 ## :large_blue_diamond: 计算机教育中缺失的一课
 
-嘿，别急，想要开始学习计算机相关的知识，你还要了解许多我们“默认”你应该掌握的内容，然而大多数新人是不知道这些的。MIT 的《The Missing Semester of Your CS Education》课程就是为了弥补这一缺失而生的。
+嘿，别急，想要开始学习编程，你还要了解许多我们“默认”你应该掌握的内容，然而大多数新人是不知道这些的。MIT 的《The Missing Semester of Your CS Education》课程就是为了弥补这一缺失而生的。
 
 > [!TIP] 
 > 本教程是在 Linux 环境下演示的，你可以使用 WSL 来跟随教程学习
