@@ -78,10 +78,10 @@ int main() {
 
 接下来，你有**两个**选择：
 
-- **主线**：直接入门C++ [点这里](#正式开始)
-- **支线**：学习一些计算机基础知识 [点这里](#学习-linux-支线)
+- **主线**：直接入门C++（跳过接下来标注有 :large_blue_diamond: 的内容）
+- **支线**：学习一些计算机基础知识（继续阅读吧）
 
-## 学习 Linux （支线）
+## :large_blue_diamond: 学习 Linux
 
 中文互联网上几乎都会让你在 Windows 中安装 C++ 开发环境，然后开始编写代码。但是，我们强烈建议你使用 Linux 系统学习 C++ 开发。这样你可以更好地理解编译、链接、运行等概念。
 
@@ -101,14 +101,14 @@ int main() {
 当然，也有很多其他的安装方式，比如使用虚拟机、双系统等。你可以利用搜索引擎搜索相关内容。
 
 > [!NOTE]
-> 希望接下来的日子里你能体会到 Linux 的美妙，早日选择 Linux 作为你的主力操作系统。很多学长学姐都在使用呢。
+> 希望接下来的日子里你能体会到 Linux 的美妙，早日选择 Linux 作为你的主力操作系统。
 
 > [!TIP]
 > **我使用的是 macOS，也需要安装 Linux 吗**
 > 
-> 不需要，macOS 拥有和 Linux 相同的设计哲学和相似的使用方法。你可以参考 [这篇文章](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/) 配置基础开发环境
+> 不需要，macOS 拥有和 Linux 相同的设计哲学和相似的使用方法。你可以参考 [这篇文章](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/) 配置基础开发环境。
 
-## 使用 VScode
+## :large_blue_diamond: 使用 VScode
 
 ### 下载安装
 
@@ -124,7 +124,7 @@ Visual Studio Code，简称 VScode，是一款轻量级的代码编辑器，拥�
 
 微软文档：[开始通过适用于 Linux 的 Windows 子系统使用 Visual Studio Code](https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/wsl-vscode)
 
-## 计算机教育中缺失的一课
+## :large_blue_diamond: 计算机教育中缺失的一课
 
 嘿，别急，想要开始学习计算机相关的知识，你还要了解许多我们“默认”你应该掌握的内容，然而大多数新人是不知道这些的。MIT 的《The Missing Semester of Your CS Education》课程就是为了弥补这一缺失而生的。
 
@@ -150,7 +150,7 @@ Visual Studio Community 是**完全免费**的！所有需要付费的下载方�
 阅读微软文档：[在 Visual Studio 中安装 C 和 C++ 支持](https://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-0-installation?view=msvc-170) 所在章节的全部内容，即可开始你的 C++ 学习
 
 > [!WARNING]
-> 如果你要使用 VS2010（不包括）以上的版本学习 C 语言，请关闭 sdl 检查 [参考连接](https://www.zhihu.com/question/65286929/answer/256000826)
+> 如果你使用 VS2010（不包括）以上的版本学习 C 语言，请关闭 sdl 检查 [参考连接](https://www.zhihu.com/question/65286929/answer/256000826)
 >
 > 如果你想知道原因：[既然scanf和strcpy等函数会被MSVC编译器报不安全，那么C语言教材为什么还讲这些函数？](https://www.zhihu.com/question/493813623?utm_psn=1771001835983126528v)
 
