@@ -137,7 +137,7 @@ Visual Studio Code，简称 VScode，是一款轻量级的代码编辑器，拥�
 
 ## 正式开始！
 
-终于，你可以开始学习 C++ 了！本文只会带你配置最基本的 C++开发环境，如果你想要学习更多内容，可以参加我们的正式授课。也可以在下面的书单和视频连接中寻找学习资源。
+终于，你可以开始学习 C++ 了！本文只会带你配置最基本的 C++ 开发环境，如果你想要学习更多内容，可以参加我们的正式授课。也可以在下面的书单和视频连接中寻找学习资源。
 
 ### 下载安装 Visual Studio 2022
 
@@ -147,7 +147,7 @@ Visual Studio Community 是完全免费的！所有需要付费的下载方式�
 
 ### 配置 Visual Studio
 
-阅读微软文档：[在 Visual Studio 中安装 C 和 C++ 支持](https://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-0-installation?view=msvc-170) 所在章节的全部内容，即可开始你的C++学习
+阅读微软文档：[在 Visual Studio 中安装 C 和 C++ 支持](https://learn.microsoft.com/zh-cn/cpp/build/vscpp-step-0-installation?view=msvc-170) 所在章节的全部内容，即可开始你的 C++ 学习
 
 > [!WARNING]
 > 如果你要使用 VS2010（不包括）以上的版本学习 C 语言，请关闭 sdl 检查 [参考连接](https://www.zhihu.com/question/65286929/answer/256000826)
@@ -156,7 +156,7 @@ Visual Studio Community 是完全免费的！所有需要付费的下载方式�
 
 ### 编写你的第一个 C++ 程序
 
-接下来，可以阅读《C++Primer》或是访问 [learncpp.com](https://learncpp.com) 学习 C++ 咯
+接下来，可以阅读《C++ Primer》或是访问 [learncpp.com](https://learncpp.com) 学习 C++ 咯
 
 当然，你也可以阅读微软文档中的 [C++ 教程](https://learn.microsoft.com/zh-cn/cpp/cpp/?view=msvc-170) 来学习
 
